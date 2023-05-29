@@ -32,7 +32,7 @@ function setCiudadesSelect(json){
 
   let select=document.getElementById('ciudades')
   //@se limita el for a 50 para temas de rapidez en las pruebas
-   for (let index = 0; index < 50; index++) {
+   for (let index = 0; index < 500; index++) {
 
    
     const select_option = document.createElement("option");

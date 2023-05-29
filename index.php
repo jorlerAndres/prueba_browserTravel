@@ -1,7 +1,4 @@
 <?php
-/* 
-$content=file_get_contents('https://api.openweathermap.org/data/2.5/weather?q=London&appid=e8619c752267736bfeb3f958e2136ea4'); */
-
 
 ?>
 
@@ -31,14 +28,12 @@ $content=file_get_contents('https://api.openweathermap.org/data/2.5/weather?q=Lo
         </div>
         <div class="tab-content container" id="v-pills-tabContent">
             <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
-            <?php include 'Vista/ciudades.html'; ?>
-            
-           
 
+            <?php include 'Vista/ciudades.html'; ?>
             </div>
             <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
                 
-            <?php include 'Vista/paises.html'; ?>
+            <?php include 'Vista/coordenadas.html'; ?>
             </div>
         </div>
     </body>

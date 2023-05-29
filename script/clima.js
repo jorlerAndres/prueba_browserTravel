@@ -74,9 +74,9 @@ async function setDataCiudad(e){
     document.getElementById('longitud_ciudad').innerHTML=arrayDatos.coord.lon
     document.getElementById('viento_velocidad').innerHTML=arrayDatos.wind.speed
     document.getElementById('id').innerHTML=arrayDatos.id
-    document.getElementById('temperatura_general').innerHTML=arrayDatos.main.temp
-    document.getElementById('temp_minima').innerHTML=arrayDatos.main.temp_min
-    document.getElementById('temp_maxima').innerHTML=arrayDatos.main.temp_max
+    document.getElementById('temperatura_general').innerHTML=arrayDatos.main.temp+'°'
+    document.getElementById('temp_minima').innerHTML=arrayDatos.main.temp_min+'°'
+    document.getElementById('temp_maxima').innerHTML=arrayDatos.main.temp_max+'°'
     document.getElementById('humedad_ciudad').innerHTML=arrayDatos.main.humidity
     document.getElementById('presion_ciudad').innerHTML=arrayDatos.main.pressure 
     document.getElementById('timezone').innerHTML=arrayDatos.timezone
@@ -121,9 +121,9 @@ async function setDataCoordenadas(e){
   setTimeout(function(){
     document.getElementById('viento_velocidad_coordenadas').innerHTML=arrayDatos.wind.speed
     document.getElementById('id').innerHTML=arrayDatos.id
-    document.getElementById('temperatura_general_coordenadas').innerHTML=arrayDatos.main.temp
-    document.getElementById('temp_minima_coordenadas').innerHTML=arrayDatos.main.temp_min
-    document.getElementById('temp_maxima_coordenadas').innerHTML=arrayDatos.main.temp_max
+    document.getElementById('temperatura_general_coordenadas').innerHTML=arrayDatos.main.temp+'°'
+    document.getElementById('temp_minima_coordenadas').innerHTML=arrayDatos.main.temp_min+'°'
+    document.getElementById('temp_maxima_coordenadas').innerHTML=arrayDatos.main.temp_max+'°'
     document.getElementById('humedad_coordenadas').innerHTML=arrayDatos.main.humidity
     document.getElementById('presion_coordenadas').innerHTML=arrayDatos.main.pressure 
     document.getElementById('timezone_coordenadas').innerHTML=arrayDatos.timezone
